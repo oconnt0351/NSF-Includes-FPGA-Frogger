@@ -22,5 +22,5 @@ Set up the LEDs in a 3x3 grid and connect them in series to the 470 Ohm resistor
 
 ## Credits & Extras
 Made by Jimin Lee and Theresa O'Connor for RPI-HVCC Semiconductor Scholars 2025
-- Project Presentation: [NSF Includes Verilog Presentation.pdf](https://github.com/user-attachments/files/20413916/NSF.Includes.Verilog.Presentation.pdf)
+- Project Presentation: [NSF Includes Verilog Presentation.pdf](https://github.com/user-attachments/files/20414050/NSF.Includes.Verilog.Presentation.pdf)
 
