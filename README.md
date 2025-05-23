@@ -28,5 +28,6 @@ https://github.com/user-attachments/assets/9a3a6688-ffe3-4ea0-b9c4-fd7f324db8a0
 
 ## Credits & Extras
 Made by Jimin Lee and Theresa O'Connor for RPI-HVCC Semiconductor Scholars 2025
-- Project Presentation: [NSF Includes Verilog Presentation.pdf](https://github.com/user-attachments/files/20414050/NSF.Includes.Verilog.Presentation.pdf)
+
+- Project Presentation:[NSF Includes Verilog Presentation.pdf](https://github.com/user-attachments/files/20416933/NSF.Includes.Verilog.Presentation.pdf)
 
