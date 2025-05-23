@@ -1,4 +1,4 @@
-# NSF-Includes-Verilog-Game
+# NSF-Includes-FPGA-Frogger
 Street crossing (Crossy Road inspired) LED matrix game
 
 Made by Jimin Lee and Theresa O'Connor for RPI-HVCC Semiconductor Scholars 2025
