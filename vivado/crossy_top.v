@@ -37,7 +37,7 @@ module crossy_top(
   reg game_end = 0; // Game end flag
 
   // New row generation
-  reg [2:0] new_row [7:0];
+  reg [2:0] new_row [15:0];
   integer new_row_num = 0;
   
   // Button debouncing/edge check
@@ -62,11 +62,19 @@ module crossy_top(
     new_row[0] = 3'b100;
     new_row[1] = 3'b010;
     new_row[2] = 3'b010;
-    new_row[3] = 3'b000;
+    new_row[3] = 3'b001;
     new_row[4] = 3'b010;
     new_row[5] = 3'b001;
     new_row[6] = 3'b100;
     new_row[7] = 3'b100;
+    new_row[8] = 3'b110;
+    new_row[9] = 3'b011;
+    new_row[10] = 3'b001;
+    new_row[11] = 3'b101;
+    new_row[12] = 3'b110;
+    new_row[13] = 3'b001;
+    new_row[14] = 3'b101;
+    new_row[15] = 3'b110;
   end
 
 
@@ -133,10 +141,10 @@ module crossy_top(
           row3 = pos;
           row2 = row1;
           row1 = new_row[new_row_num];
-          new_row_num = new_row_num + 1;
-          new_row_num = (new_row_num == 7) ? 0 : new_row_num + 1;
+          new_row_num = (new_row_num == 15) ? 0 : new_row_num + 1;
         end // Collision check
       end // If move = 1
     end // !game end
   end // always
 endmodule
+
